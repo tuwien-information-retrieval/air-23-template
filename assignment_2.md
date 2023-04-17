@@ -1,6 +1,6 @@
 # Neural IR & Extractive QA Exercise 🔎
 
-In this exercise your group is 1) aggregating raw FiRA judgements to usable labels; 2) implementing neural network re-ranking models, 3) using pre-trained extractive QA models and analyze their behavior.
+In this exercise your group is 1) aggregating raw judgements to usable labels; 2) implementing neural network re-ranking models, 3) using pre-trained extractive QA models and analyze their behavior.
 
 We provide some starter code & prepare a subset of the MS MARCO retrieval dataset so that starting to train is easier. We are utilizing PyTorch, AllenNLP, and the HuggingFace transformers library (Python 3). PyTorch allows you to be very flexible in the definition of the training process (good for our pairwise training) & debug the code in a natural way - in your IDE on your local PC (with NVIDIA GPU for full training, but developing also works with a CPU only) or Google Colab (which offers a free GPU in the cloud with a jupyter notebook) the same as any other Python code. 
 

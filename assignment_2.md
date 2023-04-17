@@ -22,7 +22,7 @@ We provide a simple baseline where we used a simple majority voting, only lookin
 
 ## Part 2 - Neural Re-Ranking **40 points**
 
-Implement 2 neural architectures based on the kernel-pooling paradigm to perform re-ranking in ``src/re_ranking.py`` (Conv-KNRM, TK)
+Implement 2 neural architectures based on the kernel-pooling paradigm to perform re-ranking in ``src/re_ranking.py`` (KNRM, TK)
 
 - Implement: the 2 (KNRM, TK) model classes **20 points**
    - Show that you understood what happens by adding comments to difficult parts of the model (what tensor dimensions represent, what gets summed up, etc..)

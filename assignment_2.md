@@ -41,7 +41,7 @@ Implement 2 neural architectures based on the kernel-pooling paradigm to perform
 
 ## Part 3 - Extractive QA **30 points**
 
-Use the transformers library to download a pre-trained extractive QA model from the HuggingFace model hub and run the extractive QA pipeline on the top-1 neural re-ranking result of the MSMARCO test set as well as on the gold-label pairs of MSMARCO-FiRA-2021 (created in 2021). 
+Use the transformers library to download a pre-trained extractive QA model from the HuggingFace model hub and run the extractive QA pipeline on the top-1 neural re-ranking result of the MSMARCO FIRA set as well as on the gold-label pairs of MSMARCO-FiRA-2021 (created in 2021). 
 
 - Get to know the HuggingFace library & model hub
 - Select a pre-trained extractive QA model from the model hub to use

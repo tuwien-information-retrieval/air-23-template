@@ -229,7 +229,7 @@ def compute_f1(a_gold, a_pred):
 #
 
 def load_qrels(path):
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding="utf8") as file:
         qids_to_relevant_passageids = {}
         for line in file:
             try:
@@ -245,7 +245,7 @@ def load_qrels(path):
 
 
 def load_ranking(path, qrels=None):
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding="utf8") as file:
         qid_to_ranked_candidate_passages = {}
         for line in file:
             try:
